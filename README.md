@@ -19,8 +19,8 @@ This library also includes the most common schemes for imposing boundary conditi
 <img src="images/cerebral_aneurysm_2.jpeg" style="width: 24%; max-width: 250px; margin-top: 1.5em;">
 <img src="images/lbm-block.png" style="width: 24%; max-width: 250px; margin-top: 1.5em;">
 
-<img src="images/lbm-velocity.png" width="40%">
-<img src="images/lbm-pressure.png" width="40%">
+<img src="images/lbm-velocity.png" width="30%">
+<img src="images/lbm-pressure.png" width="30%">
 
 ![arm](images/lbm-plaque-velocity.png)
 
