@@ -1,0 +1,13 @@
+function [fOut,fEq] = Collision2D(fIn,fEq,fOut,Lattice,LS2D)
+%% Collision Step
+for i=1:length(LS2D.cx)
+    Lattice.UxForce = Lattice.Ux + reshape(Lattice.Fx,1,Lattice.Nx,Lattice.Ny)./Lattice.Rho/2;
+    Lattice.UyForce = Lattice.Uy + reshape(Lattice.Fy,1,Lattice.Nx,Lattice.Ny)./Lattice.Rho/2;
+    cu = 3*(LS2D.cx(i)*Lattice.UxForce+LS2D.cy(i)*Lattice.UyForce);
+    fEq(i,:,:) = Lattice.Rho*LS2D.w(i) .* ...
+        ( 1  + cu + 1/2*(cu.*cu) - 3/2*(Lattice.UxForce.^2+Lattice.UyForce.^2) );    
+    fOut(i,:,:) = fIn(i,:,:) - 1/Lattice.Tau*( fIn(i,:,:)-fEq(i,:,:) )...
+                 + LS2D.w(i)*(1-1/(2*Lattice.Tau))...
+                 *( (3*(LS2D.cx(i) - Lattice.Ux) + 3*LS2D.cx(i)*cu).*reshape(Lattice.Fx,1,Lattice.Nx,Lattice.Ny) ...
+                 +  (3*(LS2D.cy(i) - Lattice.Uy) + 3*LS2D.cy(i)*cu).*reshape(Lattice.Fy,1,Lattice.Nx,Lattice.Ny) );
+end
