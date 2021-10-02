@@ -14,7 +14,7 @@ which includes
 - blood flow in aneurysms, etc. 
 
 <br/>
-This library also includes the most common schemes for imposing boundary conditions on both straight and curved boundaries. Moreover, it features multiblock and multigrid implementation that enables the lattice Boltzmann methods to more practical applications, where multiscale physical problem in complex geometries.
+This library also includes the most common schemes for imposing boundary conditions on both straight and curved boundaries. Moreover, it features multiblock and multigrid implementation that enables the lattice Boltzmann methods to more practical applicationsin complex geometries, as shown in the following examples of blood flow in cerebral aneurysms and artery with narrowed plaque.
 
 <p float="left">
 <img src="images/cerebral_aneurysm_2.jpeg" width="23%">
@@ -24,6 +24,8 @@ This library also includes the most common schemes for imposing boundary conditi
 <img src="images/lbm-pressure.png" width="23%">
 </p>
 
-<img src="images/lbm-plaque.png" width="70%">
-<img src="images/lbm-plaque-velocity.png" width="70%">
-<img src="images/lbm-plaque-pressure.png" width="70%">
+<p style="text-align:center;">
+<img src="images/lbm-plaque.png" width="50%">
+<img src="images/lbm-plaque-velocity.png" width="50%">
+<img src="images/lbm-plaque-pressure.png" width="50%">
+</p>
