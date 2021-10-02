@@ -16,9 +16,12 @@ which includes
 <br/>
 This library also includes the most common schemes for imposing boundary conditions on both straight and curved boundaries. Moreover, it features multiblock and multigrid implementation that enables the lattice Boltzmann methods to more practical applications, where multiscale physical problem in complex geometries.
 
-![arm](images/cerebral_aneurysm_2.png)
+![arm](images/cerebral_aneurysm_2.jpeg)
 
 ![arm](images/lbm-block.png)
+
+<img src="images/lbm-velocity.png" style="width: 24%; max-width: 250px; margin-top: 1.5em;">
+<img src="images/lbm-pressure.png" style="width: 24%; max-width: 250px; margin-top: 1.5em;">
 
 ![arm](images/lbm-plaque-velocity.png)
 
