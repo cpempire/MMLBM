@@ -24,6 +24,10 @@ This library also includes the most common schemes for imposing boundary conditi
 <img src="images/lbm-pressure.png" width="23%">
 </p>
 
-![arm](images/lbm-plaque-velocity.png)
+<p float="left">
+<img src="images/lbm-plaque-body.jpeg" width="23%">
+<img src="images/lbm-plaque.png" width="23%">
 
-![arm](images/lbm-plaque-pressure.png)
+<img src="images/lbm-plaque-velocity.png" width="23%">
+<img src="images/lbm-plaque-pressure.png" width="23%">
+</p>
