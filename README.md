@@ -25,7 +25,7 @@ This library also includes the most common schemes for imposing boundary conditi
 </p>
 
 <p float="left">
-<img src="images/lbm-plaque-body.jpeg" width="23%">
+<img src="images/lbm-plaque-body.png" width="23%">
 <img src="images/lbm-plaque.png" width="23%">
 
 <img src="images/lbm-plaque-velocity.png" width="23%">
