@@ -24,8 +24,6 @@ This library also includes the most common schemes for imposing boundary conditi
 <img src="images/lbm-pressure.png" width="23%">
 </p>
 
-<p style="text-align:center;">
 <img src="images/lbm-plaque.png" width="50%">
 <img src="images/lbm-plaque-velocity.png" width="50%">
 <img src="images/lbm-plaque-pressure.png" width="50%">
-</p>
